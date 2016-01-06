@@ -1,0 +1,279 @@
+/*! normalize.css v2.1.2 | MIT License | git.io/normalize */
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
+    display: block
+}
+
+audio,canvas,video {
+    display: inline-block
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden] {
+    display: none
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0;
+        font-family: Open Sans,sans-serif;
+}
+body, html {
+    height: 100%;
+}
+
+a:active,a:focus,a:hover {
+    outline: 0
+}
+
+h1 {
+    margin: .67em 0
+}
+
+abbr[title] {
+    border-bottom: 1px dotted
+}
+
+dfn {
+    font-style: italic
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+code,kbd,pre,samp {
+    font-family: monospace,serif;
+    font-size: 1em
+}
+
+pre {
+    white-space: pre-wrap
+}
+
+q {
+    quotes: "\201C" "\201D" "\2018" "\2019"
+}
+
+small {
+    font-size: 80%
+}
+
+sub,sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -.5em
+}
+
+sub {
+    bottom: -.25em
+}
+
+img {
+    border: 0
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+figure {
+    margin: 0
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    border: 0;
+    padding: 0
+}
+
+button,input,select,textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0
+}
+
+button,input {
+    line-height: normal
+}
+
+button,select {
+    text-transform: none
+}
+
+button,html input[type=button],input[type=reset],input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button[disabled],html input[disabled] {
+    cursor: default
+}
+
+input[type=checkbox],input[type=radio] {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0
+}
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+button::-moz-focus-inner,input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    outline: 0
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0
+}
+
+li>ol,li>ul {
+    margin-bottom: 0
+}
+
+b,strong {
+    font-weight: 600
+}
+
+input[type=checkbox],input[type=radio],label {
+    cursor: pointer
+}
+
+label {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.un,u {
+    background-image: linear-gradient(to right,currentColor,currentColor)
+}
+
+u {
+    text-decoration: none
+}
+
+
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+ 
+.wrapper {
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    background-color: #ccc; 
+}
+
+.xdebug-var-dump {
+    text-transform: none;
+    text-align: left;
+    background: rgba(216,216,216,.85);
+    font-size: 16px
+}
+
+.error404 { 
+    text-align: center
+}
+
+.error404__wrapper {
+    display: inline-block;
+    position: relative
+}
+
+.error404__img {
+    width: 95%
+}
+
+.bear {
+    display: inline-block;
+    position: relative
+}
+
+.bear__text {
+    position: absolute;
+    padding: 10px 0 0 80px;
+    font-size: 11px
+}
+
+.bear__img {
+    max-width: none
+}
+
+@media (min-width: 48.75em) {
+    .error404__img {
+        width:auto
+    }
+}
+
+@media (min-width: 47.5em) {
+    .bear {
+        position:absolute;
+        right: 0;
+        top: 62%
+    }
+}
+
+@media (min-width: 55em) {
+    .bear {
+        right:auto;
+        left: 81.1497326203%;
+        top: 38.2716049383%
+    }
+}
