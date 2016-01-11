@@ -187,9 +187,10 @@ blockquote {
 
 .banner-caption {
     position: absolute;
-    top: 60%;
+     
     width: 100%;
     z-index: 2;
+    bottom: 5%;
 }
 
 .subfooter {
@@ -1077,6 +1078,11 @@ textarea {
     font-weight: 800;
     line-height: 1.4;
     letter-spacing: 5px;
+}
+.lead span{
+        letter-spacing: 0px;
+    display: block;
+    font-size: 20px;
 }
 .title{
     color: lightcoral;

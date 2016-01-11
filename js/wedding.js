@@ -17,7 +17,7 @@
 	        animationLoop: true,
 	        itemWidth: 414,
 	        itemMargin: 0,
-	        pausePlay: true,
+	        pausePlay: false,
 	        start: function(slider){
 	          //$('body').removeClass('loading');
 	        }
