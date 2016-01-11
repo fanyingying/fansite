@@ -55,7 +55,7 @@
         var ap1 = new APlayer({
             element: document.getElementById('player1'),
             narrow: true,
-            autoplay: false,
+            autoplay: true,
             showlrc: false,
             music: {
                 title: 'Preparation',
