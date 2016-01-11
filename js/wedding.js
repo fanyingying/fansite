@@ -14,7 +14,7 @@
 		//-----------------------------------------------
 		$('.flexslider').flexslider({
 	        animation: "slide",
-	        animationLoop: true,
+	        animationLoop: false,
 	        itemWidth: 414,
 	        itemMargin: 0,
 	        pausePlay: false,
