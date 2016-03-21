@@ -1,0 +1,19 @@
+{
+  "name": "hifanr",
+  "version": "1.0.0",
+  "description": "This is  a blog of fan !",
+  "homepage": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://git.oschina.net/xxxx"
+  },
+  "author": {
+    "name": "surging",
+    "email": "surging2@qq.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.0.5"
+  }
+}
