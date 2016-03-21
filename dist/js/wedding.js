@@ -6,7 +6,7 @@
 	    
 	    // banner
 		//-----------------------------------------------
-		$(".banner-image").backstretch('img/wedding/banner.jpg',{
+		$(".banner-image").backstretch('dist/img/wedding/banner.jpg',{
 			centeredY:false
 		});
         
@@ -60,7 +60,7 @@
             music: {
                 title: 'Preparation',
                 author: 'Hans Zimmer/Richard Harvey',
-                url: 'img/wedding/Wedding.mp3',
+                url: 'dist/img/wedding/Wedding.mp3',
             }
         });
         ap1.init();
