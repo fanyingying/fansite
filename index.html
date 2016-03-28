@@ -1,58 +1,43 @@
-<!DOCTYPE html>
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!-->
-<html lang="en">
-<!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <title>莹莹的果粒橙</title>
-        <meta name="description" content="fanyingying">
-        <meta name="author" content="fanyingying.com">
+--- 
+layout: default 
+title: HOME 
+---
+<div class="bg-slider-wrapper">
+    <div class="flexslider bg-slider">
+        <ul class="slides">
+            <li class="slide slide-1"></li>
+            <!--  <li class="slide slide-2"></li>
+                <li class="slide slide-3"></li> -->
+        </ul>
+    </div>
+</div>
+<!--//bg-slider-wrapper-->
+<section class="promo section section-on-bg">
+    <div class="container text-center">
+        <h2 class="title">Hi,I'm Fanr , Let's have fun!<br></h2>
+        <p class="intro">enjoy, share,improve
+            <br> </p>
+        <p><a class="btn btn-cta btn-cta-primary" href="list">See Blogs</a></p>
+        <div class="text-center"><a class="btn btn-cta-home" href="worksamples"> See Work Samples</a></div>
+       
+        <!-- <button type="button" class="play-trigger btn-link " data-toggle="modal" data-target="#modal-video" ><i class="fa fa-youtube-play"></i> Watch the video</button>  -->
+    </div>
+    <!--//container-->
+</section>
+<style>
+  .footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px; 
+    background-color: rgba(142,152,160,.4);
+  } 
+  .header{
+    -webkit-box-shadow:none;
+    box-shadow:none;
+  }
+  .header .main-nav .nav .nav-item a {
+      color: #fff;
+    }
+</style>
 
-        <!-- Mobile Meta -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="img/wedding/favicon.ico">
-        
-        <!-- normalize core CSS -->
-        <link href="dist/css/normalize.css" rel="stylesheet">
-
-        <!-- Plugins jplayer css --> 
-        <link href="dist/css/wedding2.css" rel="stylesheet"> 
-  </head>
-  <body>  
-    <section class="main-content" id="main-content">
-       <div id="wrapper">
-            <div class="page page1" page="1" >
-              <div class="img_bg">
-                <img class="ImgRotateY" src="http://invite.b0.upaiyun.com/cover/img146.png" />
-              </div> 
-            </div>
-            <div class="page page2" page="2" >
-                第二页
-            </div>
-            <div class="page page3" page="3" >
-                第三页
-            </div> 
-            <div class="page page4" page="4" >
-                第四页
-            </div>  
-       </div> 
-        
-    </section>
-    <a id="btnPageDown" class="top" style=""></a>
-    <div id="btnPageUp" class="top" style=""></div>
-   <!-- JavaScript files placed at the end of the document so the pages load faster
-        ================================================== -->
-        <!-- Jquery and Bootstap core js files -->
-        <script type="text/javascript" src="plugins/jquery.min.js"></script> 
-        <!-- TouchSwipe javascript -->
-        <script type="text/javascript" src="plugins/jquery.touchSwipe.js"></script> 
-        <!-- APlayer javascript -->
-        <script type="text/javascript" src="plugins/jplayer/jquery.jplayer.min.js"></script>
-
-
-        <script type="text/javascript" src="dist/js/wedding2.js"></script>
-  </body> 
-</html>

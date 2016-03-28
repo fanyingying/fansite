@@ -10,7 +10,8 @@ title: 莹莹的秘密花园
 email: fanyingyingai@163.com
 description: > # this means to ignore newlines until "baseurl:"
     
-baseurl: "" # the subpath of your site, e.g. /blog  
+baseurl: "/" # the subpath of your site, e.g. /blog 
+blogurl: "/blog" # the subpath of your site, e.g. /blog 
 
 encoding: utf-8 
 url: "http://fanyingying.com" # the base hostname & protocol for your site 
@@ -20,8 +21,8 @@ github_username:  fanyingying
 port: 5001
 permalink: /:year/:month/:day/:title
 
-#paginate: 10  
-#paginate_path: "page:num" 
+paginate: 10  
+paginate_path: "page:num" 
 
 kramdown:
   input: GFM
