@@ -46,5 +46,18 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+
+#
+.gitignore
+.sublime-gulp.cache
+
 #node_modules folder 
 node_modules
+
+
+
+# jekyll folder 
+blog/_site
+blog/.sass-cache
+blog/.jekyll-metadata 
+

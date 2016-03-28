@@ -1,0 +1,32 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: 莹莹的秘密花园
+email: fanyingyingai@163.com
+description: > # this means to ignore newlines until "baseurl:"
+    
+baseurl: "/blog" # the subpath of your site, e.g. /blog 
+encoding: utf-8 
+url: "http://fanyingying.com" # the base hostname & protocol for your site 
+github_username:  fanyingying
+
+# Build settings 
+port: 5001
+permalink: /:year/:month/:day/:title
+
+kramdown:
+  input: GFM
+  extensions:
+    - autolink
+    - footnotes
+    - smart
+  enable_coderay: true
+  syntax_highlighter: rouge
+  coderay:
+    coderay_line_numbers:  nil
+
