@@ -10,7 +10,7 @@ title: 莹莹的秘密花园
 email: fanyingyingai@163.com
 description: > # this means to ignore newlines until "baseurl:"
     
-baseurl: "/blog" # the subpath of your site, e.g. /blog  
+baseurl: "/fansite" # the subpath of your site, e.g. /blog  
 
 encoding: utf-8 
 url: "http://fanyingying.com/blog" # the base hostname & protocol for your site 
